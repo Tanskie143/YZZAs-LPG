@@ -1,0 +1,460 @@
+.bodyz{
+    min-height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    position: relative;
+    top: 320px;
+    border-width: 5px;
+}
+.bodyz2{
+    min-height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 210px;
+    border-width: 5px;
+}
+.bodyz3{
+    min-height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 75px;
+    border-width: 5px;
+}
+.money1{
+    min-height: 80px;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    font-size: 25px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 1109px;
+    right:97px;
+}
+.money2{
+    min-height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;;
+    font-family: sans-serif;
+    position: relative; 
+    bottom: 820px;
+    right: 100px;
+    gap: 90px;
+
+}
+.money3{
+    min-height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    font-size: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 1155px;
+    gap: 395px;
+    left: 408px;
+}
+.allpicture{
+    display: flex;
+    gap: 1px;
+    position: relative;
+    left: 220px;
+    bottom: 28px;
+}
+.words{
+    position: relative;
+    top:120px;
+}
+.words2{
+    position: relative;
+    top: 140px;
+}
+.words3{
+    position: relative;
+    top: 247px;
+}
+.headerz{
+    min-height: 70px;
+    min-width: 1505px;
+    z-index: 10000;
+    position: fixed;
+    background-color: #d3d3d3    ;
+}
+.adlogotop{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LPGbordersign{
+    width: 1300px;
+    height: 250px;
+   background: linear-gradient(
+  90deg,
+  #ff6b6b,  /* soft red */
+  #ff7f50,  /* coral */
+  #ff8c42,  /* deep orange */
+  #ff9f1c,  /* golden orange */
+  #ff6f00,  /* bright orange */
+  #e65100   /* dark burnt orange */
+);
+
+    position: absolute;
+    top: 120px;
+    left: 115px;
+  }
+  .cylinderlogo{
+    width: 110px;
+    height: 220px;
+    position: absolute;
+    left: 730px;
+    top: 140px;
+  }
+  .allaccounts{
+    font-size: 22px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 920px;
+    top: 185px;
+  }
+.search{
+    width: 100px;
+  }
+  .searchbox{
+    width: 300px;
+    height: 34px;
+    font-size: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 300px;
+    top: 15px;
+  }
+  .searchpic{
+    width: 80px;
+    position: absolute;
+    left: 230px;
+    top: -4px;
+  }
+  .menuword{
+    width: 30px;
+    font-size: 33px;
+    color: #1D0E0E;
+    position: absolute;
+    top: -26px;
+    right: 79px;
+  }
+  .menuboarder{
+    border: 2px solid;
+    border-color: black;
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    top: 14px;
+  }
+  .notifications{
+    width: 34px;
+    position: absolute;
+    left: 1190px;
+    top: 17px;
+  }
+  .cart{
+    width: 45px;
+    position: absolute;
+    left: 1235px;
+    top: 19px;
+  }
+  .logouticon{
+    width: 53px;
+    position: absolute;
+    left: 1295px;
+    top: 10px;
+  }
+  .logoutbutton{
+    width: 110px;
+    height: 40px;
+    font-size: 17px;
+    position: absolute;
+    left: 1350px;
+    top: 15px;
+  }
+  .membership{
+    font-size: 32px;
+    background: linear-gradient(to right,
+    #9bca01, #f5c518,#e6b800);
+    background-size: 200%;
+    background-clip: text;
+  -webkit-background-clip: text;                   
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 4.5s linear
+  infinite; 
+  position: absolute;
+    left: 620px;
+    top: 15px;
+  }
+  .LPGsign{
+    font-size: 70px;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 10px; 
+    background: linear-gradient(to right,
+    #9c1515, #9b0606,#710303,
+    #920909, #740d0d);
+    background-size: 200%;
+    background-clip: text;
+  -webkit-background-clip: text;                   
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 1.5s linear
+  infinite;
+  position: absolute;
+  left: 100px;
+  }
+  @keyframes animate-gradient{
+    to{
+        background-position: 200%;
+    }
+  }
+  .follow{
+   background: linear-gradient(to right, #a00303, #471515,#1D0E0E,#1D0E0E, #860202);
+   background-clip: text;
+  -webkit-background-clip: text;     
+  color: transparent;                
+  -webkit-text-fill-color: transparent; 
+   position: absolute;
+   bottom: 40px;
+   left: 110px;
+   
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+}
+  .facebook{
+    background: linear-gradient(to right, #a00303, #471515,#1D0E0E,#1D0E0E, #860202);
+    background-clip: text;
+  -webkit-background-clip: text;     
+  color: transparent;                
+  -webkit-text-fill-color: transparent;
+  }
+  .instagram{
+    background: linear-gradient(to right, #a00303, #471515,#1D0E0E,#1D0E0E, #860202);
+    background-clip: text;
+  -webkit-background-clip: text;     
+  color: transparent;                
+  -webkit-text-fill-color: transparent;
+position: absolute;
+bottom: -40px;
+left: 20px;
+  }
+  .tiktok{
+    background: linear-gradient(to right, #a00303, #471515,#1D0E0E,#1D0E0E, #860202);
+    background-clip: text;
+  -webkit-background-clip: text;     
+  color: transparent;                
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+    left: 50px;
+  }
+.kalan{
+    width: 170px;
+    position: relative;
+    top: 14px;
+  }
+        .kalanborder{
+            border: #d3d3d3 solid;
+            padding: 60px;
+            height: 199px;
+            width: 170px;
+        }
+  .gasul{
+    width: 153px;
+    position: relative;
+    left: 7px;
+  }
+        .gasulborder{
+            border: #d3d3d3 solid;
+            padding: 60px;
+            height: 199px;
+            width: 170px;
+        }
+  .biggasul{
+    width: 127px;
+    position: relative;
+    left: 20px;
+  }
+        .biggasulborder{
+            border: #d3d3d3 solid;
+            padding: 60px;
+            height: 199px;
+            width: 170px;
+        }
+  .butane{
+    width: 65px;;
+    position: relative;
+    left: 50px;
+    top: 15px;
+  }
+        .butaneborder{
+            border: #d3d3d3 solid;
+            padding: 60px;
+            height: 199px;
+            width: 170px;
+        }
+  .hose{
+    width: 165px;
+    position: relative;
+    top: 30px;
+  }
+        .hoseborder{
+            border: #d3d3d3 solid;
+            padding: 60px;
+            height: 199px;
+            width: 170px;
+        }
+  .burner{
+    width: 290px;
+    position: relative;
+    right: 59px;
+    bottom: 15px;
+  }
+        .burnerborder{
+            border: #d3d3d3 solid;
+            padding: 60px;
+            height: 199px;
+            width: 170px;
+        }
+  .gasstove{
+    width: 240px;
+    position: relative;
+    right: 35px;
+  }
+        .gasstoveborder{
+            border: #d3d3d3 solid;
+            padding: 60px;
+            height: 199px;
+            width: 170px;
+            position: relative;
+            left: 74px;
+        } 
+  .longlighter{
+    width: 130px;
+    top: 70px;
+    position: relative;
+    left: 18px;
+    top: 40px;
+  }
+        .longlighterborder{
+            border: #d3d3d3 solid;
+            padding: 60px;
+            height: 199px;
+            width: 170px;
+            position: relative;
+            right: 70px;
+        }
+  .small{
+   font-family: sans-serif;
+   font-size: 23px;
+   position: relative;
+   left: 223px;
+  }
+  .medium{
+    font-family: sans-serif;
+   font-size: 23px;
+   position: relative;
+   left: 675px;
+   bottom: 43px;
+  }
+  .large{
+    font-family: sans-serif;
+    font-size: 23px;
+    position: relative;
+    left: 1127px;
+   bottom: 88px;
+  }
+  .extrasmall{
+    font-family: sans-serif;
+    font-size: 23px;
+    position: relative;
+    left: 261px;
+  }
+  .jose{
+    font-family: sans-serif;
+    font-size: 22px;
+    position: relative;
+    left: 675px;
+    bottom: 60px;
+  }
+  .borner{
+    font-family: sans-serif;
+    font-size: 23px;
+    position: relative;
+    left: 1170px;
+   bottom: 115px;
+  }
+  .stob{
+    font-family: sans-serif;
+    font-size: 23px;
+    position: relative;
+    left: 468px;
+    bottom: 159px
+  }
+  .layter{
+    font-family: sans-serif;
+    font-size: 23px;
+    position: relative;
+    left: 910px;
+    bottom: 114px
+  }
+  a {
+    text-decoration: none;
+  }
+  .menulink{
+    color: #1D0E0E;
+  }
+  .followuson{
+    font-family: sans-serif;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+  .logo1{
+    width: 33px;
+  }
+  .logo2{
+    width: 64px;
+    position: relative;
+    position: relative;
+  }
+  .logo3{
+    width: 44px;
+    position: relative;
+    top: 2px;
+  }
+  .message{
+    position: absolute;
+    top: 1715px;
+    left: 1155px;
+  }
+  .FAQ{
+    position: absolute;
+    top: 1715px;
+    left: 1300px;
+  }
+  .about{
+    position: absolute;
+    top: 1715px;
+    left: 1380px;
+  }
+  @media (max-width: 1786px) {
+  
+  }
+  @media (max-height: 600px) {
+  
+  }

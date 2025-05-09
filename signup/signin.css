@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+    background-color: rgb(195, 28, 28);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem 1rem 0.8rem 2.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.8rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+.password-strength {
+    margin-top: 0.5rem;
+    height: 4px;
+    background: #eee;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.password-strength-bar {
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.password-strength-bar.weak {
+    background-color: #ff4444;
+    width: 33.33%;
+}
+
+.password-strength-bar.medium {
+    background-color: #ffbb33;
+    width: 66.66%;
+}
+
+.password-strength-bar.strong {
+    background-color: #00C851;
+    width: 100%;
+}
+
+/* Terms and conditions checkbox */
+.terms-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.terms-group input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+.terms-group label {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+/* Responsive adjustments for signup form */
+@media screen and (max-width: 480px) {
+    .login-container {
+        padding: 1rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .input-group input {
+        padding: 0.7rem 1rem 0.7rem 2.5rem;
+    }
+}
+
+/* Form validation styles */
+.input-group input:invalid {
+    border-color: #ff4444;
+}
+
+.input-group input:valid {
+    border-color: #00C851;
+}
+
+/* Password match indicator */
+.password-match {
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    color: #ff4444;
+}
+
+.password-match.valid {
+    color: #00C851;
+}
