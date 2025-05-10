@@ -1,6 +1,6 @@
 .headerz{
     min-height: 75px;
-    min-width: 1505px;
+     min-width: 1522px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -66,15 +66,14 @@ body, html {
     padding-right: 15px;
   }
 .pictzy{
-    width: 300px;
+    width: 309px;
     min-height: 80px;
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
     position: absolute;
-    top: 130px;
-    left: 250px;
-    border: #d3d3d3 solid;
+    top: 120px;
+    left: 253px;
     padding: 20px;
     
 }
@@ -91,17 +90,17 @@ body, html {
     gap: 10px;
 }
 .pictzy1{
-    width: 45px;
+    width: 59px;
     border: #d3d3d3 solid;
     padding: 29px;
 }
 .pictzy2{
-    width: 45px;
+    width: 60px;
     border: #d3d3d3 solid;
     padding: 29px;
 }
 .pictzy3{
-    width: 45px;
+    width: 58px;
     border: #d3d3d3 solid;
     padding: 29px;
     
